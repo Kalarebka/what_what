@@ -1,2 +1,7 @@
 __pycache__
 notatki
+db.sqlite
+env/
+.gitignore
+.idea/
+
