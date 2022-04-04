@@ -129,7 +129,7 @@ def signup():
 @app.route('/logout', methods=["GET", "POST"])
 def logout():
     logout_user()
-    return redirect(url_for("index.html"))
+    return redirect(url_for("index"))
 
 
 @app.route('/signup_success', methods=["GET", "POST"])
