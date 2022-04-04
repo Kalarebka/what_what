@@ -3,5 +3,10 @@
 {% block content %}
     <br>
    	<p>what what</p>
+{% if user.is_authenticated %}
+<p>You are logged in, {{ user.login }}</p>
+{% else %}
+<p>You are not logged in.</p>
+{% endif %}
 
 {% endblock %}
